@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8" lang="en" lang="sv-se"/>
+        <meta name="author" content="Oskar Hagqvist">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="./images/Oskar.jpg"/>
+        <title>Uncharted 2</title>
+    </head>
+<body>
+<div class="header">
+<h1>Oskar's Feta Recensioner</h1>
+ <div class="motto">Spelrecensioner utav Oskar Hagqvist</div>
+</div>
+
+<div id="navbar">
+
+ <a  href="index.html">Om Mig</a>
+ <a class="active" href="spel1.html">Uncharted 2</a>
+ <a href="spel2.html">Life Is Strange</a>
+ <a href="spel3.html">Battlefield Bad company 2</a>
+
+
+</div>
+<div class="content">
+       <img src="./images/uncharted.jpg" alt="Game3" width="100%">
+  <h2>Uncharted 2</h2>
+ <p> Uncharted är ett spektakulärt och äventyrsfullt spel med en spännande story. Berättelsen handlar om äventyraren Nathan drake som tillsammans med sin medarbetare Chloe Frazer söker sig efter "the lost city of Shambhala". Under berättelsen stöter dem på andra karaktärer som man känner igen från första uncharted. Dem stöter också jämt och ständigt på olika motgångar både mysterium, pussel men också berättelsens "villain" som också vill hitta "the lost city of Shambhala".        </p> 
+    
+<p> Anledningen till att jag tycker om uncharted 2 så mycket är för att storyn är bra gjord, det finns inte riktigt några "håll" i storyn som gör att man inte förstår eller något som händer som inte passar ihop med resten av storyn. Soundtracket är också bra med bra musik som verkligen sätter tonen på spelet. Sen tycker jag också att spelet i sig ser väldigt fint ut, både grafikmässigt och platserna som berättelsen spelar ut sig på.   </p>
+    </div>
+
+<footer>Copyright &#169; 2018 Oskar Hagqivst </footer>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
+
